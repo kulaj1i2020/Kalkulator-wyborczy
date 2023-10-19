@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>Kalkulator Wyborczy</h1></header>
+    <main>
+      <div class="display1">
+        <form action="#">
+          <label for="nazwa"
+            >Nazwa ugrupowania: <input type="text" id="nazwa"
+          /></label>
+          <br />
+          <label for="koalicja"
+            >Czy jest koalicją:
+            <input type="checkbox" id="koalicja" value="true"
+          /></label>
+          <br />
+          <label for="ilosc"
+            >Ilość głosów: <input type="number" id="ilosc"
+          /></label>
+          <br />
+          <button id="btn1">Dodaj kolejne ugrupowanie</button>
+          <button id="btn2">Sprawdź wynik procentowy</button>
+        </form>
+      </div>
+      <div class="display2">
+        <ol>
+          <li>Partia przyjaciół piwa</li>
+          <li>B</li>
+          <li>C</li>
+        </ol>
+      </div>
+      <div class="display3">
+        <h2>Wyniki wyborów</h2>
+        <table>
+          <tr class="tr1">
+            <th>LP</th>
+            <th>Nazwa ugrupowania</th>
+            <th>Próg Wyborczy (%)</th>
+            <th>Ilość głosów</th>
+            <th>Wynik procentowy</th>
+          </tr>
+          <tr class="tr2">
+            <td>1</td>
+            <td>Partia przyjaciół piwa</td>
+            <td>5%</td>
+            <td>210230</td>
+            <td>50%</td>
+          </tr>
+          <tr class="tr3">
+            <td>2</td>
+            <td>nazwa</td>
+            <td>5%</td>
+            <td>210230</td>
+            <td>46%</td>
+          </tr>
+          <tr class="tr4">
+            <td>3</td>
+            <td>nazwa</td>
+            <td>5%</td>
+            <td>21027</td>
+            <td>4%</td>
+          </tr>
+          <tr class="tr5">
+            <td>4</td>
+            <td>nazwa</td>
+            <td>5%</td>
+            <td>21023</td>
+            <td>2%</td>
+          </tr>
+        </table>
+      </div>
+      <footer>&copy Jakub Kula</footer>
+    </main>
+  </body>
+</html>

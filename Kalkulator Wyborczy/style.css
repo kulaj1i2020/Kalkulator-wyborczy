@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+header {
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 2px;
+  border-style: solid;
+  padding: 15px;
+}
+.tr1 {
+  background-color: rgb(192, 181, 181);
+}
+.tr2,
+.tr3 {
+  background-color: greenyellow;
+}
+.tr4,
+.tr5 {
+  background-color: rgb(226, 104, 104);
+}
